@@ -150,7 +150,7 @@ Highcharts.mapChart('container', {
                         if (this.name == 'Москва') {
                             $.magnificPopup.open({
                             items: {
-                                src: '<div class="white-popup">'+ '<b>Ура!</b><br>' + this.name + '<br><br> Содержание попапа зависит от клика <br><br> 👍 </div>',
+                                src: '<div class="white-popup">'+ '<b>Ура!</b><br>' + this.name + '<br><br> Содержание и поведение попапа зависит от клика <br><br> 👍 </div>',
                                 type: 'inline',
                             },
                             closeOnBgClick: false,
